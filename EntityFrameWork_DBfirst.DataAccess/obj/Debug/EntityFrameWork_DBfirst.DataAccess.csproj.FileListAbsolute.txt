@@ -1,0 +1,12 @@
+C:\Users\dcardenas\source\repos\EntityFrameWork_DBfirst\EntityFrameWork_DBfirst.DataAccess\bin\Debug\EntityFrameWork_DBfirst.DataAccess.dll.config
+C:\Users\dcardenas\source\repos\EntityFrameWork_DBfirst\EntityFrameWork_DBfirst.DataAccess\bin\Debug\EntityFrameWork_DBfirst.DataAccess.dll
+C:\Users\dcardenas\source\repos\EntityFrameWork_DBfirst\EntityFrameWork_DBfirst.DataAccess\bin\Debug\EntityFrameWork_DBfirst.DataAccess.pdb
+C:\Users\dcardenas\source\repos\EntityFrameWork_DBfirst\EntityFrameWork_DBfirst.DataAccess\bin\Debug\EntityFramework.dll
+C:\Users\dcardenas\source\repos\EntityFrameWork_DBfirst\EntityFrameWork_DBfirst.DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\dcardenas\source\repos\EntityFrameWork_DBfirst\EntityFrameWork_DBfirst.DataAccess\bin\Debug\EntityFramework.xml
+C:\Users\dcardenas\source\repos\EntityFrameWork_DBfirst\EntityFrameWork_DBfirst.DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\dcardenas\source\repos\EntityFrameWork_DBfirst\EntityFrameWork_DBfirst.DataAccess\obj\Debug\EntityFrameWork_DBfirst.DataAccess.csprojAssemblyReference.cache
+C:\Users\dcardenas\source\repos\EntityFrameWork_DBfirst\EntityFrameWork_DBfirst.DataAccess\obj\Debug\EntityFrameWork_DBfirst.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\dcardenas\source\repos\EntityFrameWork_DBfirst\EntityFrameWork_DBfirst.DataAccess\obj\Debug\EntityFrameWork_DBfirst.DataAccess.csproj.CopyComplete
+C:\Users\dcardenas\source\repos\EntityFrameWork_DBfirst\EntityFrameWork_DBfirst.DataAccess\obj\Debug\EntityFrameWork_DBfirst.DataAccess.dll
+C:\Users\dcardenas\source\repos\EntityFrameWork_DBfirst\EntityFrameWork_DBfirst.DataAccess\obj\Debug\EntityFrameWork_DBfirst.DataAccess.pdb

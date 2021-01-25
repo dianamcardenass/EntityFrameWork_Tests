@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DBFirstNetModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Course">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="CourseName" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="CourseRegistration">
+    <Key>
+      <PropertyRef Name="Id_Course" />
+      <PropertyRef Name="Id_Student" />
+    </Key>
+    <Property Name="Id_Course" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="Id_Student" Type="uniqueidentifier" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Student">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" />
+    <Property Name="Address" Type="nvarchar(max)" />
+    <Property Name="Mobil" Type="nvarchar(max)" />
+  </EntityType>
+  <Association Name="FK_CourseRegistration_Course">
+    <End Role="Course" Type="Self.Course" Multiplicity="1" />
+    <End Role="CourseRegistration" Type="Self.CourseRegistration" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Course">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="CourseRegistration">
+        <PropertyRef Name="Id_Course" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CourseRegistration_Student">
+    <End Role="Student" Type="Self.Student" Multiplicity="1" />
+    <End Role="CourseRegistration" Type="Self.CourseRegistration" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Student">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="CourseRegistration">
+        <PropertyRef Name="Id_Student" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Function Name="GetCoursesByStudentId" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="StudentId" Type="uniqueidentifier" Mode="In" />
+  </Function>
+  <EntityContainer Name="DBFirstNetModelStoreContainer">
+    <EntitySet Name="Course" EntityType="Self.Course" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="CourseRegistration" EntityType="Self.CourseRegistration" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Student" EntityType="Self.Student" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_CourseRegistration_Course" Association="Self.FK_CourseRegistration_Course">
+      <End Role="Course" EntitySet="Course" />
+      <End Role="CourseRegistration" EntitySet="CourseRegistration" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CourseRegistration_Student" Association="Self.FK_CourseRegistration_Student">
+      <End Role="Student" EntitySet="Student" />
+      <End Role="CourseRegistration" EntitySet="CourseRegistration" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

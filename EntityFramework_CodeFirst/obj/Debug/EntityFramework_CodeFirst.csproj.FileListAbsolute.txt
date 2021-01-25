@@ -1,0 +1,12 @@
+C:\Users\dcardenas\source\repos\EntityFrameWork_DBfirst\EntityFramework_CodeFirst\bin\Debug\EntityFramework_CodeFirst.dll.config
+C:\Users\dcardenas\source\repos\EntityFrameWork_DBfirst\EntityFramework_CodeFirst\bin\Debug\EntityFramework_CodeFirst.dll
+C:\Users\dcardenas\source\repos\EntityFrameWork_DBfirst\EntityFramework_CodeFirst\bin\Debug\EntityFramework_CodeFirst.pdb
+C:\Users\dcardenas\source\repos\EntityFrameWork_DBfirst\EntityFramework_CodeFirst\bin\Debug\EntityFramework.dll
+C:\Users\dcardenas\source\repos\EntityFrameWork_DBfirst\EntityFramework_CodeFirst\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\dcardenas\source\repos\EntityFrameWork_DBfirst\EntityFramework_CodeFirst\bin\Debug\EntityFramework.xml
+C:\Users\dcardenas\source\repos\EntityFrameWork_DBfirst\EntityFramework_CodeFirst\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\dcardenas\source\repos\EntityFrameWork_DBfirst\EntityFramework_CodeFirst\obj\Debug\EntityFramework_CodeFirst.csprojAssemblyReference.cache
+C:\Users\dcardenas\source\repos\EntityFrameWork_DBfirst\EntityFramework_CodeFirst\obj\Debug\EntityFramework_CodeFirst.csproj.CoreCompileInputs.cache
+C:\Users\dcardenas\source\repos\EntityFrameWork_DBfirst\EntityFramework_CodeFirst\obj\Debug\EntityFramework_CodeFirst.csproj.CopyComplete
+C:\Users\dcardenas\source\repos\EntityFrameWork_DBfirst\EntityFramework_CodeFirst\obj\Debug\EntityFramework_CodeFirst.dll
+C:\Users\dcardenas\source\repos\EntityFrameWork_DBfirst\EntityFramework_CodeFirst\obj\Debug\EntityFramework_CodeFirst.pdb
